@@ -1,1 +1,1 @@
-my static library
+Description of what each program is doing:

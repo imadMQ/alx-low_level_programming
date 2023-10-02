@@ -2,17 +2,22 @@
 
 /**
  * _strlen - returns the length of a string
- * @s: string to evaluate
+ *
+ * @s: pointer to the string to be measured
  *
  * Return: the length of the string
-*/
+ */
+
 int _strlen(char *s)
 {
-	int i = 0;
+	int longi = 0;
 
-	while (s[i] != '\0')
+
+	while (*s != '\0')
 	{
-		i++;
+		longi++;
+		s++;
 	}
-	return (i);
+
+	return (longi);
 }
