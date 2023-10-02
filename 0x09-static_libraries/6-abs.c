@@ -1,15 +1,16 @@
 #include "main.h"
+
 /**
- * _abs - checks for lowercase character
- * @n: parameter
- * Return: num*-1 or num
+ * _abs - computes the absolute value of an integer
+ * @n: the int to check
+ * Return: the absolute value of int
  */
 int _abs(int n)
 {
-	int num = n;
-
-	if (n < 0)
-		return (num * -1);
-	else
-		return (num);
+	if (n >= 0)
+	{
+		return (n);
+	}
+	return (-n);
 }
+

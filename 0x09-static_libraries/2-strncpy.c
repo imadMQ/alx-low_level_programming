@@ -1,15 +1,12 @@
 #include "main.h"
-
 /**
- * _strncpy - copies a string up to n bytes
+ * _strncpy - copy a string
+ * @dest: input value
+ * @src: input value
+ * @n: input value
  *
- * @dest: pointer to the destination buffer
- * @src: pointer to the source string
- * @n: maximum number of bytes to be copied
- *
- * Return: pointer to the destination buffer
+ * Return: dest
  */
-
 char *_strncpy(char *dest, char *src, int n)
 {
 	int j;
@@ -28,3 +25,4 @@ char *_strncpy(char *dest, char *src, int n)
 
 	return (dest);
 }
+
